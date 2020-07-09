@@ -24,7 +24,7 @@ phases:
       - echo Build started on `date` from dir `pwd`
       - more PetStoreAPI.postman_collection.json
       - newman --help
-      - newman run PetStoreAPI.postman_collection.json --environment PetStoreAPIEnvironment.postman_environment.json -r
+      - newman run PetStoreAPI.postman_collection.json --environment PetStoreAPIEnvironment.postman_environment.json -r junit
       - ls -l
 
 reports:
